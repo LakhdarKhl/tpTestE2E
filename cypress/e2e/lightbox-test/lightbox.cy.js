@@ -1,5 +1,6 @@
+/// <reference types="cypress" />
 beforeEach(() => {
-    cy.visit('../../app/lightbox.html')
+    cy.visit('./components/lightbox.html')
 })
 
 // 1
